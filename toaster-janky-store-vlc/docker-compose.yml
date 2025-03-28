@@ -1,0 +1,17 @@
+version: "3.7"
+
+services:
+
+  app_proxy:
+    environment:
+      # The format here is: <app-id>_<docker-service-name>_1
+      APP_HOST: toaster-janky-store-vlc_main_1
+      APP_PORT: 4212
+      TELNET_PASSWORD=wowsers
+    devices:
+      /dev/snd:/dev/snd
+    
+  server:
+    image: ghcr.io/denidoman/vlc-telnet-docker:main
+    user: "1000:1000"
+    init: true
