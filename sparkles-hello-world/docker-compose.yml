@@ -5,7 +5,7 @@ services:
   app_proxy:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: toaster-vlc_1
+      APP_HOST: toaster-janky-store-vlc_main_1
       APP_PORT: 4212
       TELNET_PASSWORD=wowsers
     devices:
