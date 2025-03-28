@@ -1,29 +1,29 @@
 manifestVersion: 1
-id: sparkles-hello-world
-name: Hello World
-tagline: Replace this tagline with your app's tagline
+id: toaster-vlc
+name: VideoLAN VLC
+tagline: Music!
 icon: https://svgur.com/i/mvA.svg
 category: Development
 version: "1.0.0"
 port: 4000
 description: >-
-  Add your app's description here.
+  VLC for Umbrel!
 
 
-  You can also add newlines!
+  This is going to be *megajank*
 
-developer: Umbrel
-website: https://umbrel.com
-submitter: Umbrel
-submission: https://github.com/getumbrel/umbrel-hello-world-app
-repo: https://github.com/getumbrel/umbrel-hello-world-app
-support: https://github.com/getumbrel/umbrel-hello-world-app/issues
+developer: VLC Contributers
+website: https://videolan.org/vlc/
+submitter: Jazztoasty101
+submission: https://wompwomp.com/
+repo: https://github.com/voidnonymous/dingus-umbrel
+support: nopesorry
 gallery:
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://images.videolan.org/vlc/screenshots/3.0.0/3.0.17-windows11-fitted.jpg
+  - https://images.videolan.org/vlc/screenshots/android/playback-medium.jpg
+  - https://images.videolan.org/images/screenshots/skins.png
 releaseNotes: >-
-  Add what's new in the latest version of your app here.
+  Idk, this is getting used, maybe once??
 dependencies: []
 path: ""
 defaultUsername: ""
