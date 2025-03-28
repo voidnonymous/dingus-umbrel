@@ -6,7 +6,10 @@ services:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
       APP_HOST: toaster-vlc_1
-      APP_PORT: 3000
+      APP_PORT: 4212
+      TELNET_PASSWORD=wowsers
+    devices:
+      /dev/snd:/dev/snd
     
   server:
     image: ghcr.io/denidoman/vlc-telnet-docker:main
