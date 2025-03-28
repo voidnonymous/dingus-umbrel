@@ -12,6 +12,6 @@ services:
       /dev/snd:/dev/snd
     
   server:
-    image: ghcr.io/denidoman/vlc-telnet-docker:main
+    image: denidoman/vlc-telnet-docker:main
     user: "1000:1000"
     init: true
